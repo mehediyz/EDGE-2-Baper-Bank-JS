@@ -30,6 +30,10 @@ body {
   background-color: #177007;
 }
 
+.py-1 {
+  padding: 24px 0;
+}
+
 /* Login */
 
 .loginForm {
@@ -66,13 +70,77 @@ body {
   gap: 16px;
 }
 
-.loginForm input {
+input {
   border: none;
   background-color: #ebebeb;
   padding: 16px 32px;
   border-radius: 24px;
+  width: 100%;
 }
 
-.loginForm ::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   color: #1b3815;
+}
+
+/* Dashboard */
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.heading span {
+  color: #57b846;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.stats .card-1 {
+  background-color: #57b846;
+}
+.stats .card-2 {
+  background-color: #c0af4e;
+}
+.stats .card-3 {
+  background-color: #466ab8;
+}
+
+.card span {
+  font-size: 14px;
+}
+.card p {
+  font-size: 24px;
+  padding: 8px 0;
+}
+
+.input-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.input-cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.input-cards .card div {
+  display: flex;
+  gap: 4px;
+}
+
+.input-cards .card-1 {
+  background-color: #868686;
+}
+.input-cards .card-2 {
+  background-color: #868686;
 }
