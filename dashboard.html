@@ -12,15 +12,15 @@
       <div class="stats py-1">
         <div class="card card-1">
           <span>Deposit</span>
-          <p>$00</p>
+          <p>$ <span id="current-deposit">00</span></p>
         </div>
         <div class="card card-2">
           <span>Withdraw</span>
-          <p>$00</p>
+          <p>$ <span id="current-withdraw">00</span></p>
         </div>
         <div class="card card-3">
           <span>Balance</span>
-          <p>$00</p>
+          <p>$ <span id="current-balance">00</span></p>
         </div>
       </div>
 
@@ -33,7 +33,7 @@
               type="text"
               placeholder="Deposit amount"
             />
-            <button class="btn">Deposit</button>
+            <button id="depositBtn" class="btn">Deposit</button>
           </div>
         </div>
         <div class="card card-2">
@@ -44,7 +44,7 @@
               type="text"
               placeholder="Withdraw amount"
             />
-            <button class="btn">Withdraw</button>
+            <button id="WithdrawBtn" class="btn">Withdraw</button>
           </div>
         </div>
       </div>
