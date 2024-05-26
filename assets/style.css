@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.btn {
+  border: none;
+  background-color: #57b846;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: #177007;
+}
+
+/* Login */
+
+.loginForm {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.loginForm h1 {
+  background-color: #57b846;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.loginForm form {
+  width: 500px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.loginForm form div {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.loginForm input {
+  border: none;
+  background-color: #ebebeb;
+  padding: 16px 32px;
+  border-radius: 24px;
+}
+
+.loginForm ::-webkit-input-placeholder {
+  color: #1b3815;
+}
